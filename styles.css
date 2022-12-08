@@ -1,22 +1,41 @@
 body {
-    background-color: silver
+    background-color: silver;
 }
 
 h1 {
     text-align: center;
 }
 
-button {
-    
+#game-console-container {
+    height: 50px;
+    width: 900px;
+    display: inline-block;
+    margin: auto;
 }
 
 #container {
-    max-width: 850px;
+    max-width: 1600px;
     margin-inline: auto;
-    border: 1px solid white;
-    height: 1200px;
-    background-color: green;
+    height: 628px;
     border-radius: 25px;
+}
+
+/*
+button {
+    border: 1px solid blue;
+    border-radius: 25px;
+    background-color: pink;
+    border-radius: 25px;
+    text-align: center;
+}
+*/
+
+.button {
+    border: 1px solid blue;
+    border-radius: 25px;
+    background-color: pink;
+    border-radius: 25px;
+    text-align: center;
 }
 
 /* add different font */
@@ -35,6 +54,8 @@ button {
     border: 1px solid black;
     border-radius: 25px;
     padding: 10px;
+    background-color: green;
+    border: 1px solid white;
 }
 
 .bingoNumber:hover{
@@ -44,14 +65,17 @@ button {
 }
 
 .selectedNumber {
-    border-color: darkblue;
-    background-color: pink
+    border: 1px solid blue;
+    border-radius: 25px;
+    background-color: pink;
+    border-radius: 25px;
+    text-align: center;
+    margin: auto;
 }
 
 .randomButton {
     height: 100px;
     width: 100px;
-
 }
 
 .randomDisplay {
@@ -64,6 +88,3 @@ button {
     height: 100px;
 }
 
-.game-console-container {
-    display: inline-block;
-}
