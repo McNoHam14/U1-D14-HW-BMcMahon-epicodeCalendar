@@ -16,14 +16,6 @@ function onNumberClick (event) {
 clickedNumberNode.classList.add('selectedNumber')
 }
 
-
-function generateRandomNumber() {
-    let min = 1
-    let max = 76
-    let randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-    return randomNumber
-}
-
 function generateRandomNumber() {
     let min = 1
     let max = 76
@@ -39,6 +31,16 @@ function generateRandomNumber() {
     numberNode.style.background = "grey"
   }   
 
+
+
+/*
+function generateRandomNumber() {
+    let min = 1
+    let max = 76
+    let randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+    return randomNumber
+}
+*/
 
 /*
 function generateRandomNumberDisplay(num) {
