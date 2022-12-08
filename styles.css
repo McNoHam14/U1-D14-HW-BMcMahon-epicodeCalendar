@@ -1,0 +1,69 @@
+body {
+    background-color: silver
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    
+}
+
+#container {
+    max-width: 850px;
+    margin-inline: auto;
+    border: 1px solid white;
+    height: 1200px;
+    background-color: green;
+    border-radius: 25px;
+}
+
+/* add different font */
+
+.bingoNumber {
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    line-height: 100px;
+}
+
+#bingo-numbers-container {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.bingoNumber:hover{
+    border-color: aquamarine;
+    cursor: grab;
+    background-color: red;
+}
+
+.selectedNumber {
+    border-color: darkblue;
+    background-color: pink
+}
+
+.randomButton {
+    height: 100px;
+    width: 100px;
+
+}
+
+.randomDisplay {
+    height: 100px;
+    width: 100px;
+}
+
+.generateRandomNumberDisplay {
+    background-color: white;
+    height: 100px;
+}
+
+.game-console-container {
+    display: inline-block;
+}
